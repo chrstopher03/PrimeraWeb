@@ -1,0 +1,90 @@
+
+
+.Principal{
+    background:rgb(42, 123, 143) ;
+    padding: 20px;
+}
+
+.tituloSecundario{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+h3{
+    text-align: center;
+}
+
+.TituloPrincipal{
+    text-align: center;
+}
+
+p{
+  text-align: center;
+ 
+}
+.Parrafo{
+text-align: center;
+margin-bottom: 15px;
+}
+
+
+#Mision{
+    font-size: 20px;
+}
+
+#Mision em{
+    font-style: italic;
+}
+
+em strong{
+    color: #f8f8f8;
+    
+}
+
+.ofertas{
+    background-color:#999999 ;
+    padding: 20px;
+}
+.TitulosOfertas{
+text-align: center;
+font-weight: bold;
+font-size: 25px;
+margin-bottom: 10px;
+}
+.ListasCarreras{
+display: inline-block;
+vertical-align: top;
+width: 25%;
+margin-right: 15%;
+
+}
+
+.Carreras{
+    font-style: italic;
+}
+
+
+.ImagenCarrera{
+    width: 50%;
+}
+.imagenCentro{
+    width: 100%;
+
+}
+.itens{
+    margin-bottom: 20px;
+}
+
+.Ubicacion{
+    text-align:center ;
+    margin: 20px;
+}
+
+
+.TituloUbicacion{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}

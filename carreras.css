@@ -1,0 +1,231 @@
+
+
+
+
+body{
+    font-family: "Oswald", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+}
+
+
+.encabezado{
+    background: #cccccc;
+    padding-top: 20px;
+}
+.cajaNav{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+nav{
+    position: absolute;
+    top: 88px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a:hover{
+color: rgb(42, 123, 143);
+text-decoration: underline;
+}
+
+
+.carreras{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.carreras li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+
+    margin:0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.carreras li:hover{
+    border-color: rgb(42, 123, 143);
+}
+
+.carreras li:active{
+    border-color: rgb(151, 172, 172);
+}
+
+.carreras h2{
+    font-weight: bold;
+    font-weight: 30px;
+    padding-bottom: 15px;
+}
+
+.carreras li:hover h2{
+    font-size: 33px;
+}
+
+.imagenCarreras{
+    width: 90%;
+}
+
+.Ubicacion{
+    text-align: center;
+}
+
+.TituloUbicacion{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.textoDescripcion{
+    font-size: 18px;
+}
+
+.textoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+footer{
+    background: url(img/fondoFooter.jpg);
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.Copyright{
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+main{
+width: 940px;
+margin: 0 auto;
+}
+
+.input-datos-generales{
+
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 50%;
+}
+
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+
+.Enviar{
+    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: rgb(42, 123, 143);
+  border: none;
+  border-radius: 10px;
+  transition: 1s background;
+  transition: 1s transform;
+}
+
+.Enviar:hover{
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+form select{
+    margin-bottom:10px ;
+}
+
+table {
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+
+thead{
+    background-color:rgb(172, 172, 172);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+th{
+padding-top:10px ;
+padding-bottom:10px ;
+}
+
+table,td,tr,th{
+    border: 2px solid black;
+}
+
+td{
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left: 10px;
+
+}
+
+tr:nth-child(even){
+    background-color:rgb(125, 200, 219);
+}
+
+.textoPieTable{
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.itens{
+    margin-bottom: 20px;
+}
+
+.Ubicacion{
+    text-align:center ;
+    margin: 20px;
+}
+
+
+.TituloUbicacion{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}

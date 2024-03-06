@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="shortcut icon" href="img/logo-inatec-2016.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="carreras.css">
+</head>
+    <body>
+        <header class="encabezado">
+         <div  class="cajaNav">
+           <img src="img/inatec-logo-9518FD4AC8-seeklogo.com.png" alt="Logo de INATEC">
+            <nav>
+             <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="carreras.html">Carreras</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+          </nav> 
+        </div>
+      </header>
+    <main>
+  <form>
+<fieldset>
+                               
+    <label for="nombreApellido">Nombre y Apellido</label>
+    <input class="input-datos-generales" id="nombreApellido"  type="text" placeholder="Ingrese su nombre y apellido"> 
+
+    <label for="Corre">Correo Electronico</label>
+    <input class="input-datos-generales" type="email" id="CorreoElectronico" placeholder="example@dominio.com"> 
+
+    <label for="Telefono">Telefono</label>
+    <input class="input-datos-generales" type="tel" id="Telefono" placeholder="+xx 0000 0000">
+
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="" cols="70" rows="10" placeholder="escribe tu mensaje"></textarea>
+
+  </fieldset>
+
+<fieldset>
+  <legend> Como le gustaria que lo contactemos</legend>
+
+<label for="radio-email"><input name="forma-contacto" id="radio-email" value="Email" type="radio">Email</label>
+
+
+<label for="radio-Telefono"><input name="forma-contacto" id="radio-Telefono" value="Telefono" type="radio">Telefono</label>
+
+<label for="radio-whatsApp"><input name="forma-contacto" id="radio-whatsApp" value="whatsApp" type="radio">whatsApp</label>
+</fieldset>
+
+
+<fieldset>
+<legend>¿Que turno le interesa?</legend>
+
+<select id="Turno">
+<option value="Matutino">Matutino</option>
+<option value="Vespertino">Vespertino</option>
+<option value="Nocturno">Nocturno</option>
+<option value="Sabatino"> Sabatino</option>
+<option value="Dominical">Dominical</option>
+</select>
+</fieldset>   
+
+
+<label class="checkbox"><input type="checkbox">Le gustaria recibir novedades de carreras y cursos que se ofertan</label>
+
+
+  <input class="Enviar" type="submit" value="Enviar formulario">
+
+</form>
+
+<table>
+<thead>
+        <tr>
+            <th>Turno</th>
+            <th>Horario</th>
+       </tr>
+   </thead>
+<tbody>
+          
+              <tr>
+                <td>Matutino</td>
+                <td>7:00am-12:30pm</td>
+            </tr>
+          
+
+          
+              <tr>
+                  <td>Vespertino</td>
+                  <td>12:30pm-6:00pm</td>
+            </tr>
+          
+
+        
+            <tr>
+                <td>Nocturno</td>
+                <td>6:00pm-9:00pm</td>
+            </tr>
+        
+
+        
+            <tr>
+                <td>Sabatino</td>
+                <td>7:30am-4:15pm
+            </tr>
+        
+
+        
+              <tr>
+                  <td>Dominical</td>
+                  <td>7:30am-4:15pm</td>
+              </tr>
+    </tbody>
+
+<tfoot>
+    <tr >
+
+      <td colspan="2" class="textoPieTable">Horarios CT che Guevara Somoto</td>
+
+    </tr>
+
+</tfoot>
+
+</thead>
+ </table>
+
+
+</main>
+    <footer>
+        <img src="img/Logo positivo de Inatec.png" alt="">
+        <p class="Copyright">&copy; Copyrigth INATEC Che guevara Somoto,2024</p>
+ 
+    </footer>
+ </body>
+</html>
